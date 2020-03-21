@@ -26,16 +26,4 @@ public class FlightsResource {
         return flightsService.searchFlights(searchParams);
     }
 
-    @GET
-    @Path("/cheap")
-    public Multi<Flight> cheapFlights() {
-        return flightsService.getCheapFlights();
-    }
-
-    @GET
-    @Path("/business")
-    public Multi<Flight> businessFlights() {
-        return flightsService.getBusinessFlights();
-    }
-
 }
