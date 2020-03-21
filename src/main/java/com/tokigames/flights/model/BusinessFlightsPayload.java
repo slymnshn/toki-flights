@@ -7,7 +7,7 @@ public class BusinessFlightsPayload {
 
     public Set<BusinessFlight> data;
 
-    static class BusinessFlight {
+    public static class BusinessFlight {
         public String departure;
         public String arrival;
         public Instant departureTime;

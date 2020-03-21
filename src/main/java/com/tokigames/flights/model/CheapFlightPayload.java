@@ -7,7 +7,7 @@ public class CheapFlightPayload {
 
     public Set<CheapFlight> data;
 
-    static class CheapFlight {
+    public static class CheapFlight {
         public String route;
         public Instant departure;
         public Instant arrival;
