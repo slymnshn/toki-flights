@@ -8,3 +8,8 @@ You can run your application in dev mode that enables live coding using:
 ```
 mvn compile quarkus:dev
 ```
+
+## Running tests
+```
+mvn clean test
+```
